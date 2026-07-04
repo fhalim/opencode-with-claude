@@ -1,0 +1,7 @@
+allowBuilds:
+  '@anthropic-ai/claude-code': set this to true or false
+  '@rynfar/meridian': set this to true or false
+  esbuild: set this to true or false
+  msgpackr-extract: set this to true or false
+patchedDependencies:
+  '@rynfar/meridian@1.45.0': patches/@rynfar__meridian@1.45.0.patch
