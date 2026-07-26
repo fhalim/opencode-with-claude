@@ -64,6 +64,7 @@ coverage/
 
 # generated files
 *.tgz
+!vendor/*.tgz
 
 # sqlite / local db files
 *.sqlite

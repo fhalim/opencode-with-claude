@@ -1,0 +1,8 @@
+overrides:
+  "@rynfar/meridian": "file:./vendor/meridian-1.57.0-winfix.tgz"
+allowBuilds:
+  "@anthropic-ai/claude-code": true
+  "@rynfar/meridian": true
+  '@rynfar/meridian@file:vendor/meridian-1.57.0-winfix.tgz': true
+  esbuild: true
+  msgpackr-extract: true
